@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/NasNav/static/css/main.de0c3b8a.css",
+    "main.js": "/NasNav/static/js/main.d2153dec.js",
+    "static/js/787.98093fa4.chunk.js": "/NasNav/static/js/787.98093fa4.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/NasNav/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "index.html": "/NasNav/index.html",
+    "main.de0c3b8a.css.map": "/NasNav/static/css/main.de0c3b8a.css.map",
+    "main.d2153dec.js.map": "/NasNav/static/js/main.d2153dec.js.map",
+    "787.98093fa4.chunk.js.map": "/NasNav/static/js/787.98093fa4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de0c3b8a.css",
+    "static/js/main.d2153dec.js"
+  ]
+}
