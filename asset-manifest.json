@@ -1,16 +1,36 @@
 {
   "files": {
-    "main.css": "/NasNav/static/css/main.de0c3b8a.css",
-    "main.js": "/NasNav/static/js/main.d2153dec.js",
+    "main.css": "/NasNav/static/css/main.e4a8d49c.css",
+    "main.js": "/NasNav/static/js/main.0e3a5171.js",
+    "static/css/643.b2ac996a.chunk.css": "/NasNav/static/css/643.b2ac996a.chunk.css",
+    "static/js/643.441aa2e1.chunk.js": "/NasNav/static/js/643.441aa2e1.chunk.js",
     "static/js/787.98093fa4.chunk.js": "/NasNav/static/js/787.98093fa4.chunk.js",
+    "static/media/Montserrat-SemiBold.ttf": "/NasNav/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
+    "static/media/Montserrat-Medium.ttf": "/NasNav/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
+    "static/media/Montserrat-Bold.ttf": "/NasNav/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf",
+    "static/media/Montserrat-Light.ttf": "/NasNav/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
     "static/media/Montserrat-Regular.ttf": "/NasNav/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/logo-yellow.svg": "/NasNav/static/media/logo-yellow.83fa84465a59fb3b307c809ee4b13fe1.svg",
+    "static/media/contact.svg": "/NasNav/static/media/contact.3d67661056e8e7c0ce29bc11e90738eb.svg",
+    "static/media/instagram.svg": "/NasNav/static/media/instagram.bcd0ae0c16c6c9cdbb73cf3d7bcfbb2d.svg",
+    "static/media/cart.svg": "/NasNav/static/media/cart.a76b27f2b9e850d6ca56dc50116fe2da.svg",
+    "static/media/linkedin.svg": "/NasNav/static/media/linkedin.34d2e34f12c5138426f06e48b4263a87.svg",
+    "static/media/bag.svg": "/NasNav/static/media/bag.5b7a66582237dfb8f562727f554f86dc.svg",
+    "static/media/twitter.svg": "/NasNav/static/media/twitter.3e2a02b2b0f8224845c77420474def13.svg",
+    "static/media/store.svg": "/NasNav/static/media/store.ce0b6eceed3399f25694caa68c8a7dcb.svg",
+    "static/media/wish.svg": "/NasNav/static/media/wish.1be0489fdef0da8a261adbade8c22d11.svg",
     "index.html": "/NasNav/index.html",
-    "main.de0c3b8a.css.map": "/NasNav/static/css/main.de0c3b8a.css.map",
-    "main.d2153dec.js.map": "/NasNav/static/js/main.d2153dec.js.map",
+    "static/media/facebook.svg": "/NasNav/static/media/facebook.8064e21855545bca9f10b5856dc425dc.svg",
+    "static/media/subscribe.svg": "/NasNav/static/media/subscribe.54305e6eb095364d05d978a56e7a33f6.svg",
+    "static/media/user.svg": "/NasNav/static/media/user.94f286fc8d91110551aee35afba4077a.svg",
+    "main.e4a8d49c.css.map": "/NasNav/static/css/main.e4a8d49c.css.map",
+    "main.0e3a5171.js.map": "/NasNav/static/js/main.0e3a5171.js.map",
+    "643.b2ac996a.chunk.css.map": "/NasNav/static/css/643.b2ac996a.chunk.css.map",
+    "643.441aa2e1.chunk.js.map": "/NasNav/static/js/643.441aa2e1.chunk.js.map",
     "787.98093fa4.chunk.js.map": "/NasNav/static/js/787.98093fa4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de0c3b8a.css",
-    "static/js/main.d2153dec.js"
+    "static/css/main.e4a8d49c.css",
+    "static/js/main.0e3a5171.js"
   ]
 }
