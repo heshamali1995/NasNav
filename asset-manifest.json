@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/NasNav/static/css/main.e4a8d49c.css",
-    "main.js": "/NasNav/static/js/main.e89a1f71.js",
-    "static/css/643.b2ac996a.chunk.css": "/NasNav/static/css/643.b2ac996a.chunk.css",
-    "static/js/643.441aa2e1.chunk.js": "/NasNav/static/js/643.441aa2e1.chunk.js",
+    "main.js": "/NasNav/static/js/main.28097a64.js",
+    "static/css/333.968df356.chunk.css": "/NasNav/static/css/333.968df356.chunk.css",
+    "static/js/333.1ec9c843.chunk.js": "/NasNav/static/js/333.1ec9c843.chunk.js",
     "static/js/787.98093fa4.chunk.js": "/NasNav/static/js/787.98093fa4.chunk.js",
     "static/media/Montserrat-SemiBold.ttf": "/NasNav/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
     "static/media/Montserrat-Medium.ttf": "/NasNav/static/media/Montserrat-Medium.c86e3b9010ff63c99166.ttf",
@@ -11,6 +11,8 @@
     "static/media/Montserrat-Light.ttf": "/NasNav/static/media/Montserrat-Light.6fcc9263a21be961d246.ttf",
     "static/media/Montserrat-Regular.ttf": "/NasNav/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
     "static/media/logo-yellow.svg": "/NasNav/static/media/logo-yellow.83fa84465a59fb3b307c809ee4b13fe1.svg",
+    "static/media/Adidas_logo.svg": "/NasNav/static/media/Adidas_logo.acfd06476a2550f18f8455cd7d50ca1a.svg",
+    "static/media/logo-black.svg": "/NasNav/static/media/logo-black.fd943939913025cdcbb85274a343ddcf.svg",
     "static/media/contact.svg": "/NasNav/static/media/contact.3d67661056e8e7c0ce29bc11e90738eb.svg",
     "static/media/instagram.svg": "/NasNav/static/media/instagram.bcd0ae0c16c6c9cdbb73cf3d7bcfbb2d.svg",
     "static/media/cart.svg": "/NasNav/static/media/cart.a76b27f2b9e850d6ca56dc50116fe2da.svg",
@@ -22,15 +24,19 @@
     "index.html": "/NasNav/index.html",
     "static/media/facebook.svg": "/NasNav/static/media/facebook.8064e21855545bca9f10b5856dc425dc.svg",
     "static/media/subscribe.svg": "/NasNav/static/media/subscribe.54305e6eb095364d05d978a56e7a33f6.svg",
+    "static/media/setting-bar.svg": "/NasNav/static/media/setting-bar.66307ff43edd719d052622b167b3924f.svg",
     "static/media/user.svg": "/NasNav/static/media/user.94f286fc8d91110551aee35afba4077a.svg",
+    "static/media/search.svg": "/NasNav/static/media/search.542c6e40fd1bb4c5f72fc1a8dac7e98e.svg",
+    "static/media/left-arrow.svg": "/NasNav/static/media/left-arrow.089ac231f5e2b27d8d2bf0fba36ed43c.svg",
+    "static/media/right-arrow.svg": "/NasNav/static/media/right-arrow.a0cd1606431b1c69710b4e6f4985fad2.svg",
     "main.e4a8d49c.css.map": "/NasNav/static/css/main.e4a8d49c.css.map",
-    "main.e89a1f71.js.map": "/NasNav/static/js/main.e89a1f71.js.map",
-    "643.b2ac996a.chunk.css.map": "/NasNav/static/css/643.b2ac996a.chunk.css.map",
-    "643.441aa2e1.chunk.js.map": "/NasNav/static/js/643.441aa2e1.chunk.js.map",
+    "main.28097a64.js.map": "/NasNav/static/js/main.28097a64.js.map",
+    "333.968df356.chunk.css.map": "/NasNav/static/css/333.968df356.chunk.css.map",
+    "333.1ec9c843.chunk.js.map": "/NasNav/static/js/333.1ec9c843.chunk.js.map",
     "787.98093fa4.chunk.js.map": "/NasNav/static/js/787.98093fa4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4a8d49c.css",
-    "static/js/main.e89a1f71.js"
+    "static/js/main.28097a64.js"
   ]
 }
