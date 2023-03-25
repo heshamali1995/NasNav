@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NasNav/static/css/main.e4a8d49c.css",
-    "main.js": "/NasNav/static/js/main.0e3a5171.js",
+    "main.js": "/NasNav/static/js/main.e89a1f71.js",
     "static/css/643.b2ac996a.chunk.css": "/NasNav/static/css/643.b2ac996a.chunk.css",
     "static/js/643.441aa2e1.chunk.js": "/NasNav/static/js/643.441aa2e1.chunk.js",
     "static/js/787.98093fa4.chunk.js": "/NasNav/static/js/787.98093fa4.chunk.js",
@@ -24,13 +24,13 @@
     "static/media/subscribe.svg": "/NasNav/static/media/subscribe.54305e6eb095364d05d978a56e7a33f6.svg",
     "static/media/user.svg": "/NasNav/static/media/user.94f286fc8d91110551aee35afba4077a.svg",
     "main.e4a8d49c.css.map": "/NasNav/static/css/main.e4a8d49c.css.map",
-    "main.0e3a5171.js.map": "/NasNav/static/js/main.0e3a5171.js.map",
+    "main.e89a1f71.js.map": "/NasNav/static/js/main.e89a1f71.js.map",
     "643.b2ac996a.chunk.css.map": "/NasNav/static/css/643.b2ac996a.chunk.css.map",
     "643.441aa2e1.chunk.js.map": "/NasNav/static/js/643.441aa2e1.chunk.js.map",
     "787.98093fa4.chunk.js.map": "/NasNav/static/js/787.98093fa4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4a8d49c.css",
-    "static/js/main.0e3a5171.js"
+    "static/js/main.e89a1f71.js"
   ]
 }
