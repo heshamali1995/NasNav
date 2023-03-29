@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url("../../../../../public/assets/fonts/Montserrat/static/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../../../../../public/assets/fonts/Montserrat/static/Montserrat-Medium.ttf");
+}
+footer {
+  background-color: #3c3c3b;
+  padding: 50px 0px 23px 0px;
+  color: #fff;
+}
+footer .footer-wrapper .footer-text {
+  margin-bottom: 54px;
+  position: relative;
+}
+footer .footer-wrapper .footer-text::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+  height: 1px;
+  background-color: #eee;
+}
+footer .footer-wrapper .footer-text .text {
+  width: 42.5%;
+  font-family: "Montserrat-Light";
+  position: relative;
+}
+footer .footer-wrapper .footer-text .text::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: -8.5%;
+  width: 1px;
+  height: 100%;
+  background-color: #eee;
+}
+footer .footer-wrapper .footer-text .text .image {
+  margin-bottom: 29px;
+}
+footer .footer-wrapper .footer-text .text p:not(p:last-of-type) {
+  margin-bottom: 30px;
+}
+footer .footer-wrapper .footer-text .form {
+  width: 49%;
+}
+footer .footer-wrapper .footer-text .form h4 {
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+}
+footer .footer-wrapper .footer-text .form .email {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 5px 5px 5px 15px;
+  margin-bottom: 30px;
+}
+footer .footer-wrapper .footer-text .form .email input {
+  width: 100%;
+  font-size: 0.75rem;
+  font-family: "Montserrat-Light";
+  color: #542e90;
+}
+footer .footer-wrapper .footer-text .form .email div {
+  background-color: #FFF100;
+  border-radius: 30px;
+  padding: 8.5px 16.5px 8.5px 24.5px;
+}
+footer .footer-wrapper .footer-text .form .email div button {
+  font-family: "Montserrat-Medium";
+  font-size: 0.625rem;
+  color: #000;
+  background-color: transparent;
+  margin-right: 8px;
+}
+footer .footer-wrapper .footer-text .form .lists ul {
+  width: 49%;
+  position: relative;
+  margin-right: 20%;
+}
+footer .footer-wrapper .footer-text .form .lists ul::after {
+  position: absolute;
+  content: "";
+  right: -20%;
+  top: 0px;
+  width: 1px;
+  height: 100%;
+  background-color: #eee;
+}
+footer .footer-wrapper .footer-text .form .lists ul li:not(li:last-of-type) {
+  margin-bottom: 16px;
+}
+footer .footer-wrapper .footer-text .form .lists .socials div {
+  margin-bottom: 10px;
+}
+footer .footer-wrapper .footer-text .form .lists .socials div img {
+  margin-right: 10px;
+}
+footer .footer-wrapper .footer-coprights .copy {
+  margin-right: 23.5%;
+}
+footer .footer-wrapper .footer-coprights .copy p {
+  font-family: "Montserrat-Light";
+}
+footer .footer-wrapper .footer-coprights .sponsors {
+  margin-right: 15%;
+}
+footer .footer-wrapper .footer-coprights .sponsors img:not(img:last-of-type) {
+  margin-right: 10px;
+}
+footer .footer-wrapper .footer-coprights .powered p {
+  margin-right: 8px;
+  font-size: 0.875rem;
+}
+
+/*--------- Start Media Query ---------*/
+@media all and (max-width: 767px) {
+  footer .footer-wrapper .footer-text {
+    flex-direction: column;
+  }
+  footer .footer-wrapper .footer-text .text {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  footer .footer-wrapper .footer-text .text::after {
+    display: none;
+  }
+  footer .footer-wrapper .footer-text .form {
+    width: 100%;
+  }
+  footer .footer-wrapper .footer-coprights {
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer .footer-wrapper .footer-coprights .copy {
+    margin-right: 0%;
+  }
+  footer .footer-wrapper .footer-coprights .sponsors {
+    margin-right: 0%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1919px) {
+  footer .footer-wrapper .footer-coprights {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  footer .footer-wrapper .footer-coprights .copy {
+    margin-right: 0%;
+  }
+  footer .footer-wrapper .footer-coprights .sponsors {
+    margin-right: 0%;
+  }
+}
+/*--------- End Media Query ---------*/
+
+/*# sourceMappingURL=footer.css.map */

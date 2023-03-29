@@ -1,0 +1,132 @@
+@use "../../../../sass/base/vars" as *;
+@use "../../../../sass/base/function" as *;
+@use "../../../../sass/base/mixin" as *;
+
+@include fontFace("Montserrat-SemiBold", "../../../../../public/assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf");
+
+.search-section {
+    padding: 13px 0px;
+    background-color: $white;
+    font-size: pxToRem(16);
+    font-family: "Montserrat-SemiBold";
+    .search-wrapper {
+        // Search Section
+        .search {
+            border: 0.5px solid #D8D8D8;
+            border-radius: 24px;
+            padding: 12px;
+            width: 30%;
+            margin-right: 16.44%;
+            img {
+                margin-right: 8px;
+            }
+            input {
+                border: none;
+                outline: none;
+                width: 100%;
+            }
+        }
+        .brand-logo {
+            margin-right: 19.26%;
+        }
+        // Items Section
+        .items {
+            gap: 32px;
+            div {
+                img {
+                    margin-right: 8px;
+                }
+            }
+            .cart {
+                position: relative;
+                div {
+                    position: absolute;
+                    background-color: $primary-color;
+                    width: 15px;
+                    height: 15px;
+                    top: 0px;
+                    left: 20px;
+                    border-radius: 50%;
+                    p {
+                        color: #3C3C3B;
+                        font-size: pxToRem(12);
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*--------- Start Media Query ---------*/
+
+// XSmall Media Query
+
+@media all and (max-width: 575px) {
+    .search-section {
+        .search-wrapper {
+            flex-direction: column;
+            gap: 20px;
+            justify-content: center;
+            .search {
+                width: 100%;
+                margin-right: 0px;
+                img {
+                    margin-right: 8px;
+                }
+            }
+            .brand-logo {
+                margin-right: 0px;
+            }
+            .items {
+                gap: 15px;
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+// Small To Medium Media Query
+
+@media all and (min-width: 576px) and (max-width: 991px) {
+    .search-section {
+        .search-wrapper {
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+            .search {
+                width: 60%;
+                margin-right: 0px;
+            }
+            .brand-logo {
+                margin-right: 0px;
+            }
+            .items {
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+// Large Media Query
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .search-section {
+        .search-wrapper {
+            justify-content: space-between;
+            .search {
+                margin-right: 0px;
+            }
+            .brand-logo {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+/*--------- End Media Query ---------*/
