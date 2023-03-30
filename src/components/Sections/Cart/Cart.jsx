@@ -5,7 +5,7 @@ import CartItem from "../../Cards/CartItem";
 
 class Cart extends Component {
   render() {
-    const { openCart, cartList, handleClickOnCart, handleRemoveItem } = this.props;
+    const { openCart, cartList, handleClickOnCart, handleRemoveItem, cartQuantities } = this.props;
     return (
       <section className={`cart-section ${openCart ? "animate": ""}`}>
         <div className="xbutton">
@@ -22,14 +22,12 @@ class Cart extends Component {
                 cartList?.map((elem) => {
                   return (
                     <div className="item-wrapper" key={Math.random() * 1000}>
-                      <CartItem item={elem} handleRemoveItem={handleRemoveItem} />
+                      <CartItem item={elem} handleRemoveItem={handleRemoveItem} cartQuantities={cartQuantities} />
                     </div>
                   )
                 })
               }
-              <p className="total-cart-price">Total Items in Cart: {(cartList.reduce((acc, index) => {
-                return acc += (parseFloat(index.item.priceAfterDiscount.replace(/[^\d\.]*/g, "")) * index.quantity)
-              }, 0)).toLocaleString()} LE</p>
+
             </div>
           )
         }

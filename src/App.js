@@ -16,7 +16,7 @@ class App extends Component {
       openCart: false,
       cartCount: 0,
       cartList: [],
-      cartQuantities: []
+      cartQuantities: 0
     }
   }
 
@@ -43,23 +43,21 @@ class App extends Component {
 
   // Increment Cart
   incrementCart = (elem, quantity) => {
-    this.state.cartList.push(elem);
-    this.state.cartQuantities.push(quantity);
-    this.state.cartQuantities.map((quantity) => {
-      elem.quantity = quantity
+    if (!this.state.cartList.some((item) => item.id === elem.id)) {
+      this.state.cartList.push(elem);
+    }
+    this.setState({
+      cartQuantities: this.state.cartQuantities + quantity,
+      cartCount: 1
     })
-    this.setState((prev) => {
-      return {
-        cartCount: prev.cartCount + 1
-      }
-    });
   }
 
   // Remove Item
   handleRemoveItem = (e) => {
     this.setState({
       cartList: this.state.cartList.filter((elem) => elem !== e),
-      cartCount: this.state.cartCount - 1
+      cartCount: this.state.cartCount - 1,
+      cartQuantities: 0
     })
   }
   
@@ -78,6 +76,7 @@ class App extends Component {
                 cartList={this.state.cartList}
                 handleClickOnCart={this.handleClickOnCart}
                 handleRemoveItem={this.handleRemoveItem}
+                cartQuantities={this.state.cartQuantities}
               />
             </div>
           </Suspense>
